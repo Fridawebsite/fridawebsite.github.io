@@ -110,3 +110,103 @@ a:hover{
     grid-row-start: -4;
     grid-row-end: -1;
 }
+
+@media screen and (max-width:550px){
+    html{
+        height: 2090px;
+    }
+    .nav{
+        position: absolute;
+        padding:30%;
+        padding-left: 30px;
+        padding-top: 45px;
+    }
+    .menu{
+        position: absolute;
+        z-index: 1;
+    }
+    
+    a{
+        padding: 10px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family:'M PLUS Rounded 1c', sans-serif;
+        color:black;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .container{
+        margin:auto; 
+    }
+    
+    .grid{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows:repeat(20, 170px);
+        grid-gap: 10px; 
+    }
+    .gallery{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block; 
+    }
+    .item1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    
+    .item2{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 6;
+    }
+    .item3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 8;
+    }
+    .item4{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 8;
+        grid-row-end: 10;
+    }
+    .item5{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 10;
+        grid-row-end: 12;
+    }
+    .item6{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 12;
+        grid-row-end: 14;
+    
+    }
+    .item7{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 14;
+        grid-row-end: 16;
+    }
+    
+    .item8{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 16;
+        grid-row-end: 18;
+    }
+    .item9{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 18;
+        grid-row-end: 20;
+    }
+    
+}
